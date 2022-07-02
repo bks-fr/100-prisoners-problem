@@ -48,4 +48,4 @@ for i in range(1,num_runs+1):
     seed_boxes(prisoners_total)
     num_success+=run_group(prisoners_total,abox)
     print("Runs:{},Success:{},Percentage:{}".format(i,num_success,100*num_success/i), end="\r")
-    
+print('') 
